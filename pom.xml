@@ -15,4 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>Bcard-Releases</id>
+      <name>Bcard-Releases</name>
+      <url>http://ec2-13-233-225-73.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Bcard-Releases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>Bcard-Snapshots</id>
+      <name>Bcard-Snapshots</name>
+      <url>http://ec2-13-233-225-73.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Bcard-Snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
