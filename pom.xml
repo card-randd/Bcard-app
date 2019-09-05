@@ -20,14 +20,14 @@
       <uniqueVersion>false</uniqueVersion>
       <id>Bcard-Releases</id>
       <name>Bcard-Releases</name>
-      <url>http://ec2-13-234-59-208.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Bcard-Releases/</url>
+      <url>http://ip-172-31-43-231.ap-south-1.compute.internal:8081/nexus/content/repositories/Bcard-Releases/</url>
       <layout>default</layout>
     </repository>
     <snapshotRepository>
       <uniqueVersion>true</uniqueVersion>
       <id>Bcard-Snapshots</id>
       <name>Bcard-Snapshots</name>
-      <url>http://ec2-13-234-59-208.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Bcard-Snapshots/</url>
+      <url>http://ip-172-31-43-231.ap-south-1.compute.internal:8081/nexus/content/repositories/Bcard-Snapshots/</url>
       <layout>legacy</layout>
     </snapshotRepository>
   </distributionManagement>
